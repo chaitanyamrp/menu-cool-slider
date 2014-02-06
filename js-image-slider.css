@@ -13,10 +13,8 @@
 
 #slider {
 	background:#fff url(loading.gif) no-repeat 50% 50%;
-	position:relative;
-	margin:0 auto; /*center-aligned*/
-    transform: translate3d(0,0,0);
-    box-shadow: 0px 1px 5px #999999;
+	position:absolute; top:100; left:100;
+	box-shadow: 0px 1px 5px #999999;
 }
 
 /* image wrapper */
@@ -110,7 +108,7 @@
 #slider div.sliderInner {
 	overflow:hidden; 
 	-webkit-transform: rotate(0.000001deg);/* fixed the Chrome not crop border-radius bug*/
-	position:absolute; top:300; left:300;
+	position:absolute; top:0; left:0;
 }
 
 #slider>a, #slider video, #slider audio {display:none;}
