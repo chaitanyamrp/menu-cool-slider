@@ -110,7 +110,7 @@
 #slider div.sliderInner {
 	overflow:hidden; 
 	-webkit-transform: rotate(0.000001deg);/* fixed the Chrome not crop border-radius bug*/
-	position:absolute; top:0; left:0;
+	position:absolute; top:300; left:300;
 }
 
 #slider>a, #slider video, #slider audio {display:none;}
